@@ -1,5 +1,5 @@
-
-# new2<-list("Algeria",38934334,31000)
+# for testing the used the below case , any country could be selected 
+# test<-list("Algeria",38934334,31000)
 # do.call(coun_mort,list(new2))
 
 
