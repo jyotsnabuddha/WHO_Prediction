@@ -1,14 +1,10 @@
-<<<<<<< HEAD
+
 
 #test data  test<-list("Algeria",38934334,31000,75)
 # the function has to called via do.call(coun_mort,list(new2))
 "The function takes a list as input and depending on the country specified in the list the model is 
 built . This dynamically lets us choose the country for which we want to build a model "
-=======
-# for testing the used the below case , any country could be selected 
-# test<-list("Algeria",38934334,31000)
-# do.call(coun_mort,list(new2))
->>>>>>> 5a2deb48c9279e1f121806046d40e9c6604123f3
+
 
 
 coun_mort<- function(input){
@@ -22,13 +18,11 @@ coun_mort<- function(input){
   
   summary(req_model)
   
-<<<<<<< HEAD
+
   predict(req_model,test,se.fit =TRUE,interval = "confidence")
   
  
   
 }
 
-=======
-}
->>>>>>> 5a2deb48c9279e1f121806046d40e9c6604123f3
+
