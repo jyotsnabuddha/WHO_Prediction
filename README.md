@@ -55,6 +55,7 @@ Attributes :
                        c_cdr
                     c_cdr_lo
                     c_cdr_hi
+
 A code book for the attribute information can be found in the same repositoy named "TB_data_dictionary_2016-04-26.csv" which is a complete list of the acronyms used by WHO. 
 
 The dataet in  project has only the above listed attributes .
